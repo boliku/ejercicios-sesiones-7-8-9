@@ -1,10 +1,11 @@
 import './App.css';
-import { ContactList } from './component/container/ContactList';
+import { ContactContainer } from './component/container/ContactContainer';
+
 
 function App() {
   return (
     <div className="App">
-        <ContactList />
+      <ContactContainer/>
     </div>
   );
 }
